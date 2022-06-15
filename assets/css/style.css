@@ -170,12 +170,32 @@ html{
 
 
 
-
+/* contact */
 #contact{
    
     padding-left: 30px;
     padding-right: 30px;
-    margin-bottom: 80px;
+    margin-bottom: 180px;
+}
+
+
+/* social links for contac */
+#contact .social-links {
+   margin: 0px 0px 0px 70px;
+   padding-left: 0;
+   font-size: 30px;
+}
+
+#contact .social-links li {
+   display: inline-block;
+   margin: 0;
+   padding: 0;
+   margin-left: 50px;
+   color: #fc7419;
+}
+
+#contact .social-links li:first-child {
+   margin-left: 0;
 }
 
 .scrolldown  {
@@ -201,7 +221,7 @@ html{
 
 /* social links */
 footer .social-links {
-   margin: 0px 0px 10px 10px;
+   margin: 0px 0px 0px 10px;
    padding: 0;
    font-size: 30px;
 }
@@ -210,7 +230,7 @@ footer .social-links li {
    display: inline-block;
    margin: 0;
    padding: 0;
-   margin-left: 30px;
+   margin-left: 10px;
    color: #fc7419;
 }
 
