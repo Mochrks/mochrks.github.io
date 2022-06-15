@@ -50,6 +50,15 @@ html{
 #about a:focus {
    color: #11ABB0;
 }
+
+#about p{
+  text-align: justify;
+}
+
+#about h6{
+  color: white;
+}
+
 #education{
     padding-top: 105px;
     padding-left: 30px;
@@ -62,6 +71,7 @@ html{
 
 #education p{
     padding-left: 10px;
+    text-align: justify;
 }
 #artwork{
     background: #2B2B2B;
