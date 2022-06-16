@@ -16,8 +16,10 @@ html{
 }
 
 .f1{
-  padding-left: 370px;
+  margin: 0px 10px 10px 300px;
+  padding: 0;
   color: white;
+  
 }
 
 
@@ -218,10 +220,61 @@ html{
    transition: all .3s ease-in-out;
 }
 
+/* ------------------------------------------------------------------ */
+/* i. Footer
+/* ------------------------------------------------------------------ */
+
+footer {
+   padding-top: 48px;
+   margin-bottom: 48px;
+   color: #303030;
+   font-size: 14px;
+   text-align: center;
+   position: relative;
+}
+
+footer a,
+footer a:visited {
+   color: #525252;
+}
+
+footer a:hover,
+footer a:focus {
+   color: #fff;
+}
+
+/* copyright */
+footer .copyright {
+   margin: 0;
+   padding: 0;
+}
+
+footer .copyright li {
+   display: inline-block;
+   margin: 0;
+   padding: 0;
+   line-height: 4px;
+   color: #525252;
+}
+
+.ie footer .copyright li {
+   display: inline;
+}
+
+footer .copyright li:before {
+   content: "\2022";
+   padding-left: 10px;
+   padding-right: 10px;
+   color: #095153;
+}
+
+footer .copyright li:first-child:before {
+   display: none;
+}
 
 /* social links */
 footer .social-links {
-   margin: 0px 0px 0px 10px;
+   margin: 30px 100px 3px 108px;
    padding: 0;
    font-size: 30px;
 }
@@ -230,14 +283,13 @@ footer .social-links li {
    display: inline-block;
    margin: 0;
    padding: 0;
-   margin-left: 10px;
-   color: #fc7419;
+   margin-left: 42px;
+   color: #F06000;
 }
 
 footer .social-links li:first-child {
    margin-left: 0;
 }
-
 
 /* Go To Top Button */
 #go-top {
@@ -265,9 +317,6 @@ footer .social-links li:first-child {
    font-size: 21px;
    line-height: 60px;
    border-radius: 100%;
-}
-#go-top i{
-    margin-left: 15px;
 }
 
 #go-top a:hover {
