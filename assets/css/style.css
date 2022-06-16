@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
 html{
     scroll-behavior: smooth;
 }
@@ -130,13 +140,17 @@ html{
  display: flex;
  flex-direction: row;
  justify-content: space-between;
+ column-count: 3;
 }
+
+
 
 #container2 .box .dream{
   display: flex;
   flex-direction: column;
   width: 32.5%;
   margin-right: 15px;
+
 }
 
 #container2 .box .dream img{
@@ -144,9 +158,12 @@ html{
   padding-bottom: 15px;
   border-radius: 5px;
 }
-
+img{
+    width: 100%;
+    transition: 0.25s ease-in-out;
+}
 #container2 .btn{
-  margin: 40px 0 70px 0;
+  margin: 40px 23px 10px 0px;
   background: #222;
   padding: 15px 40px ;
   border-radius: 5px;
