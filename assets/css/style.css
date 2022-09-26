@@ -6,7 +6,11 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-
+body{
+    overflow-x: hidden;
+    
+    font-family: 'Poppins',sans-serif;
+}
 
 html{
     scroll-behavior: smooth;
