@@ -4,7 +4,6 @@
 @import url("font-awesome/css/font-awesome.min.css");
 
 html,
-body,
 div,
 span,
 object,
@@ -79,7 +78,9 @@ video {
    font-size: 100%;
    vertical-align: baseline;
    background: transparent;
+   
 }
+
 
 article,
 aside,

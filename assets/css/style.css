@@ -5,15 +5,15 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  
 }
 body{
-    overflow-x: hidden;
-    
-    font-family: 'Poppins',sans-serif;
+   overflow-x:hidden;
 }
 
 html{
     scroll-behavior: smooth;
+    overflow-x:hidden;
 }
 
 .hero{
@@ -25,6 +25,8 @@ html{
     display: flex;
     align-items: center;
     justify-content: center;
+    
+    
 }
 
 /* navbar */
