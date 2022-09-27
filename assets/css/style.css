@@ -410,6 +410,51 @@ html{
 }
 
 
+
+/* about */
+
+#project {
+   background: #2B2B2B;
+   padding-top: 93px;
+   padding-bottom: 200px;
+   overflow: hidden;
+}
+#project h2{
+    color: white;
+    padding-bottom: 30px;
+   
+}
+#project h4{
+    color: white;
+}
+
+#project p{
+    color: white;
+}
+
+#project a,
+#project a:visited {
+   color: #fff;
+}
+
+#project a:hover,
+#project a:focus {
+   color: #11ABB0;
+}
+
+#project p{
+  text-align: justify;
+}
+
+#project h6{
+  color: white;
+}
+
+#project  .konten{
+    margin-bottom: 40px;
+}
+
+
 /* about */
 
 #about {
