@@ -6,6 +6,56 @@
 
 /* ================================================================== */
 
+/* responsive */
+@media (min-aspect-ratio : 16/9){
+    .gambar{
+        width: 100%;
+        height: auto;
+        transition: 0.5s;
+    
+    }
+}
+@media (max-aspect-ratio : 9/16){
+    .gambar{
+        width: auto;
+        height: 100%;
+        position: relative;
+        transition: 0.5s;
+    
+    }
+}
+
+
+/* screenwidth less than 1280px
+--------------------------------------------------------------------- */
+@media only screen and (max-width: 1280px) {
+
+   .content h1{
+         font-size :70px;
+         margin-left: 2px;
+         
+    }
+    .content h5{
+        font-size: 30px;
+        margin-left: 10px;
+    }
+    .content a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    border: 2px solid white ;
+    padding: 12px 50px;
+    border-radius: 40px;
+    transition: 0.5s;
+    margin-left: 10px;
+    
+    }
+
+
+}
+
+
 
 /* screenwidth less than 1024px
 --------------------------------------------------------------------- */
@@ -18,6 +68,31 @@
       letter-spacing: -1px;
       margin: 0 auto 12px auto;
    }
+
+   .content h1{
+      
+      font-size :40px;
+      margin-left: 140px;
+         
+    }
+    .content h5{
+        font-size: 30px;
+        margin-left: 150px;
+    }
+    .content a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    border: 2px solid white ;
+    padding: 12px 50px;
+    border-radius: 40px;
+    transition: 0.5s;
+    margin-left: 140px;
+    
+    }
+
+   
 
 }
 
@@ -47,6 +122,28 @@
    }
 
 
+    .content h1{
+         font-size :60px;
+         margin-left: 140px;
+         
+    }
+    .content h5{
+        font-size: 35px;
+        margin-left: 140px;
+    }
+    .content a{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    border: 2px solid white ;
+    padding: 12px 50px;
+    border-radius: 40px;
+    transition: 0.5s;
+    margin-left: 140px;
+    
+    }
+
    /* About Section
    ------------------------------------------------------------------- */
    #about .profile-pic {
@@ -73,6 +170,7 @@
       line-height: 46px;      
    }
 
+
     /* Call to Action Section
    ------------------------------------------------------------------- */
    #call-to-action .header-col h1:before {
@@ -95,6 +193,9 @@
 
 
 }
+
+
+
 
 /* mobile wide/smaller tablets
 ---------------------------------------------------------------------- */
@@ -215,6 +316,30 @@
 
     /* scrolldown link */
    header .scrolldown { display: none; }
+
+
+
+   /* content */
+   .content h1{
+      margin-left: 600px;
+      font-size :50px;
+    }
+    .content h5{
+      margin-block-end: 0%;
+      margin-left: 00px;
+      font-size: 20px;
+    }
+    .content a{
+        text-decoration: none;
+        display: inline-block;
+        color: white;
+        font-size: 13px;
+        border: 2px solid white ;
+        padding: 10px 60px;
+        border-radius:20px;
+        transition: 0.5s;
+        margin-left: 600px;
+    }
 
 
    /* About Section
@@ -368,6 +493,29 @@
    /* header social links */
    header .social { font-size: 20px;}
    header .social li { margin: 0 6px; }
+
+
+   /* content */
+   .content h1{
+      margin-left: 600px;
+      font-size :50px;
+    }
+    .content h5{
+      margin-block-end: 0%;
+      margin-left: 00px;
+      font-size: 20px;
+    }
+    .content a{
+        text-decoration: none;
+        display: inline-block;
+        color: white;
+        font-size: 13px;
+        border: 2px solid white ;
+        padding: 10px 60px;
+        border-radius:20px;
+        transition: 0.5s;
+        margin-left: 600px;
+    }
 
    /* footer
    ------------------------------------------------------------------------ */
