@@ -499,12 +499,12 @@
    .content h1{
       margin-left: 600px;
       font-size :50px;
-    }
+    } 
     .content h5{
       margin-block-end: 0%;
       margin-left: 00px;
       font-size: 20px;
-    }
+    } 
     .content a{
         text-decoration: none;
         display: inline-block;
@@ -516,6 +516,25 @@
         transition: 0.5s;
         margin-left: 600px;
     }
+
+      /* social links */
+   .social-links1 {
+      color: black;
+      text-align: center;
+      padding: 0;
+      font-size: 20px;
+   }
+   .social-links1 li {
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+      margin-left: 18px;
+      color: black;
+   }
+
+   .social-links1 li:first-child {
+      margin-left: 0;
+   }
 
    /* footer
    ------------------------------------------------------------------------ */
