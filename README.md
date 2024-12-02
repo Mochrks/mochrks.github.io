@@ -3,11 +3,11 @@
 <p align="center">
   <img src="https://img.shields.io/badge/HTML-5E5E5E?style=flat&logo=html5&logoColor=white" alt="HTML" />
   <img src="https://img.shields.io/badge/CSS-3C3C3C?style=flat&logo=css3&logoColor=white" alt="CSS" />
-  <img src="https://img.shields.io/badge/SCSS-CC6699?style=flat&logo=sass&logoColor=white" alt="SCSS" />
+  <img src="https://img.shields.io/badge/JS-3C3C3C?style=flat&logo=javascript&logoColor=white" alt="JS" />
 </p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,scss" alt="Tech Stack Icons" />
+  <img src="https://skillicons.dev/icons?i=html,css,js" alt="Tech Stack Icons" />
 </p>
 
 ## Overview
