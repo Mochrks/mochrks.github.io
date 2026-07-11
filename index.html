@@ -22,8 +22,8 @@
     <style>
       /* ===== CSS Custom Properties ===== */
       :root {
-        --bg-primary: #0a0a0f;
-        --bg-secondary: #12121a;
+        --bg-primary: #030104;
+        --bg-secondary: #0b070f;
         --bg-card: rgba(255, 255, 255, 0.04);
         --bg-card-hover: rgba(255, 255, 255, 0.08);
         --bg-glass: rgba(255, 255, 255, 0.06);
@@ -31,10 +31,10 @@
         --text-primary: #f0f0f5;
         --text-secondary: #8a8a9a;
         --text-muted: #55556a;
-        --accent-1: #6c63ff;
-        --accent-2: #a855f7;
-        --accent-3: #ec4899;
-        --accent-glow: rgba(108, 99, 255, 0.3);
+        --accent-1: #0d6efd;
+        --accent-2: #0056b3;
+        --accent-3: #0dcaf0;
+        --accent-glow: rgba(13, 110, 253, 0.5);
         --radius-sm: 8px;
         --radius-md: 12px;
         --radius-lg: 16px;
@@ -271,14 +271,14 @@
 
       .filter-btn:hover {
         color: var(--text-primary);
-        border-color: rgba(108, 99, 255, 0.3);
+        border-color: rgba(13, 110, 253, 0.3);
         transform: translateY(-1px);
       }
 
       .filter-btn.active {
         color: #fff;
         border-color: transparent;
-        box-shadow: 0 4px 20px var(--accent-glow);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
       }
 
       .filter-btn.active::before {
@@ -675,7 +675,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        box-shadow: 0 4px 24px var(--accent-glow);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
         opacity: 0;
         transform: translateY(20px);
         transition: all var(--transition-smooth);
@@ -691,7 +691,7 @@
 
       .scroll-top:hover {
         transform: translateY(-3px);
-        box-shadow: 0 8px 32px var(--accent-glow);
+        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
       }
 
       .scroll-top svg {
